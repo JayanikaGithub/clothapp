@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { mobile } from "../responsive";
 
 
 const Container = styled.div`
@@ -10,7 +9,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://ae01.alicdn.com/kf/H68c069c894c3443ca35249ff25a95493u.jpg")
+    url("https://i.ytimg.com/vi/OYIATgTw81g/maxresdefault.jpg")
       center;
   background-size: cover;
   display: flex;
@@ -22,8 +21,6 @@ const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
   background-color: white;
-  ${mobile({ width: "75%" })}
-  
 `;
 
 const Title = styled.h1`
@@ -51,7 +48,7 @@ const Agreement = styled.span`
 const Button = styled.button`
   width: 40%;
   border: none;
-  padding: 15px 20px;
+  padding: 15px 70px;
   background-color: teal;
   color: white;
   cursor: pointer;
@@ -60,7 +57,7 @@ const Button = styled.button`
 const Register = () => {
   return (
     <Container>
-    <Link to={`/home`}>
+    
       <Wrapper>
         <Title>CREATE AN ACCOUNT</Title>
         <Form>
@@ -74,10 +71,11 @@ const Register = () => {
             By creating an account, I consent to the processing of my personal
             data in accordance with the <b>PRIVACY POLICY</b>
           </Agreement>
-          <Button>CREATE</Button>
+          <Link to={`/home`}>
+            <Button>CREATE</Button>
+          </Link>
         </Form>
       </Wrapper>
-      </Link>
     </Container>
   );
 };

@@ -11,7 +11,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://img.freepik.com/free-photo/stylish-girl-reading-book_23-2147666421.jpg?w=2000")
+    url("https://thumbs.dreamstime.com/b/%D0%B1%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B8%CC%86-230455842.jpg")
       center;
   background-size: cover;
   display: flex;
@@ -22,7 +22,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 25%;
   padding: 20px;
-  background-color: white;
+  background-color: #f3b56c;
   ${mobile({ width: "75%" })}
 `;
 
@@ -42,15 +42,15 @@ const Button = styled.button`
   width: 40%;
   border: none;
   padding: 15px 20px;
-  background-color: teal;
-  color: white;
+  background-color: #f8d3a8;
+  color: black;
   cursor: pointer;
   margin-bottom: 10px;
 `;
 
 const Links = styled.a`
   margin: 5px 0px;
-  font-size: 12px;
+  font-size: 15px;
   text-decoration: underline;
   cursor: pointer;
 `;
@@ -73,7 +73,7 @@ const Success = () => {
         <Form>
           <Title>Thank You !</Title>
           <Desc>
-          Your Order has been received
+          Your Order has been confirmed
           </Desc>
         <Link to={`/home`}>
         <Button>Exit</Button>

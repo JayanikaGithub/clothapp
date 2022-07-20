@@ -10,7 +10,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://ae01.alicdn.com/kf/Hefdaccaaead04f76ace93338196f8c6eP/SINGRAIN-Women-Yellow-Print-Blouses-Dress-Autumn-French-Elegant-Long-Sleeve-Lace-up-A-line-Vestidos.jpg")
+    url("https://i.pinimg.com/originals/75/54/1b/75541bb956165f89dc682b9190bd8b56.jpg")
       center;
   background-size: cover;
   display: flex;
