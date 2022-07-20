@@ -51,7 +51,7 @@ export const sliderItems = [
   export const popularProducts = [
     {
       id:1,
-      img:"https://www.topofstyle.com/blog/wp-content/uploads/2021/02/sweatyrocks-short-sleeve-crop-top-tshirt.jpg",
+      img:"https://www.freepnglogos.com/uploads/t-shirt-png/t-shirt-png-combed-cotton-crew-neck-shirt-cross-stitch-25.png",
     },
     {
       id:2,
@@ -59,7 +59,7 @@ export const sliderItems = [
     },
     {
       id:3,
-      img:"https://i.pinimg.com/474x/74/28/25/7428251e42c8186b4163f463aa59075d.jpg",
+      img:"http://cdn.shopify.com/s/files/1/0634/9009/7406/products/butterfly-pink-acid-tie-dye-tank-top-_1.jpg?v=1653869558",
     },
     {
       id:4,
@@ -67,7 +67,7 @@ export const sliderItems = [
     },
     {
       id:5,
-      img:"https://image.made-in-china.com/43f34j00oEHfGrYFIzqc/Latest-Fashion-Pink-Color-Tops-Sexy-off-Shoulder-Long-Sleeve-of-Ruffies-Short-Tops-Blouse-for-Women-Shirt.jpg",
+      img:"https://www.kindpng.com/picc/m/695-6957045_transparent-crop-top-png-cute-aesthetic-clothes-png.png",
     },
     {
       id:6,
@@ -79,6 +79,19 @@ export const sliderItems = [
     },
     {
       id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+      img:"https://www.kindpng.com/picc/m/249-2492567_baby-party-frocks-no-background-girls-print-dress.png",
     },
+    {
+      id:8,
+      img:"https://img.shopstyle-cdn.com/sim/0f/21/0f21394d6ee167a682c0787928743565_best/lanah-off-the-shoulder-ruffled-duchesse-satin-gown.jpg",
+    },
+    {
+      id:8,
+      img:"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/guest-wedding-dresses-index-1598536760.jpg?crop=0.396xw:0.792xh;0.604xw,0.0994xh&resize=640:*",
+    },
+    {
+      id:8,
+      img:"https://www.pngitem.com/pimgs/m/37-375171_crop-white-top-aesthetic-hd-png-download.png",
+    },
+    
   ]
