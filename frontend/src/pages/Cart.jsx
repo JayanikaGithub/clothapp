@@ -31,7 +31,7 @@ const TopButton = styled.button`
   cursor: pointer;
   border: ${(props) => props.type === "filled" && "none"};
   background-color: ${(props) =>
-    props.type === "filled" ? "black" : "transparent"};
+    props.type === "filled" ? "#bf75ad" : "transparent"};
   color: ${(props) => props.type === "filled" && "white"};
 `;
 
@@ -152,7 +152,7 @@ const SummaryItemPrice = styled.span``;
 const Button = styled.button`
   width: 100%;
   padding: 10px;
-  background-color: black;
+  background-color: #bf75ad;
   color: white;
   font-weight: 600;
 `;

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { mobile } from "../responsive";
 
@@ -59,6 +60,7 @@ const Button = styled.button`
 const Register = () => {
   return (
     <Container>
+    <Link to={`/home`}>
       <Wrapper>
         <Title>CREATE AN ACCOUNT</Title>
         <Form>
@@ -75,6 +77,7 @@ const Register = () => {
           <Button>CREATE</Button>
         </Form>
       </Wrapper>
+      </Link>
     </Container>
   );
 };

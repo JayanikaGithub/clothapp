@@ -63,7 +63,7 @@ const Desc = styled.p`
   margin: 20px 0px;
 `;
 
-const checkout = () => {
+const Success = () => {
   return (
     <Container>
       
@@ -86,4 +86,4 @@ const checkout = () => {
   );
 };
 
-export default  checkout;
+export default  Success;
