@@ -1,10 +1,10 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://o.remove.bg/downloads/bd823498-de44-45e3-b222-830915901ba3/21993022_1365755570203466_2683410099515220765_o-removebg-preview.png",
+      img: "https://stylesatlife.com/wp-content/uploads/2020/01/30-Stylish-Long-Tops-for-Teenage-Girls-with-Fashionable-Designs.jpg",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "faabb9",
+      bg: "f9e97b",
     },
     {
       id: 2,
@@ -27,16 +27,19 @@ export const sliderItems = [
       id: 1,
       img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t45.5328-4/282377507_5070059073078507_8905825957736851796_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-7&_nc_sid=c48759&_nc_ohc=_NvlIvaBIWkAX_5otpP&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT_6oWe2fnPesTz6Os1gGvGtFTqrlhkh-Jt6nEEnWkXq_A&oe=62CE4908",
       title: "SHIRT STYLE!",
+      cat:"women"
     },
     {
       id: 2,
       img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t45.5328-4/283493400_7489587521083218_2824616072587987751_n.jpg?stp=dst-jpg_p960x960&_nc_cat=108&ccb=1-7&_nc_sid=c48759&_nc_ohc=8y5-RGrw6FsAX8f2UjJ&tn=1PyL_p61C6NLNxcf&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT9ymP37yo1HbXmtrfz0MDocc7nH5DE6IBriZngU9JKU5g&oe=62CEE40D",
       title: "OFFICE WEAR",
+      cat:"coat"
     },
     {
       id: 3,
       img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t45.5328-4/286409360_5330520680303647_3594611637901910975_n.jpg?stp=dst-jpg_p960x960&_nc_cat=108&ccb=1-7&_nc_sid=c48759&_nc_ohc=MkbUc7VQby4AX9axwzj&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT9ZxlL1Ji06SWr_aHXdpj5a8hb-nhYEig451CIQLQ1xHA&oe=62CF10CF",
       title: "PARTY WEAR",
+      cat:"jeans"
     },
     {
       id: 3,
